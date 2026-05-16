@@ -1,17 +1,17 @@
 # --- SYNTHETIC DEMO DATA --- No real IPs, names, or paths ---
 
-Render job failed on worker render-node-045
+Render job failed on worker worker-node-01
 Worker address: 10.0.99.1
 User: testuser
-UNC path: \\render-farm-01\DeadlineRepo\SampleProject\shots\101\101_010
+UNC path: \fileserver-01\MediaShare\SampleProject\shots\101\101_010
 Windows path: C:\Users\testuser\Documents\render_logs\frame_0042.log
 Linux log: /var/log/deadline/render_0042.log
 Home dir: /home/testuser/configs/ocio.yaml
-Email: testuser@studio.internal
-Domain: pipeline.studio.internal
+Email: testuser@example.internal
+Domain: pipeline.example.internal
 Secondary IP: 10.0.99.2
-URL: https://pipeline.studio.internal/api/v1/jobs/0042
-Machine: build-server-dev-01
+URL: https://pipeline.example.internal/api/v1/jobs/0042
+Machine: build-agent-01
 
 Stack trace:
   File "/home/testuser/scripts/submit_job.py", line 42, in submit
