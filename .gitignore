@@ -1,0 +1,7 @@
+# Never allow real data in this repo
+*.log
+*_SAFE.*
+*_REPORT.*
+*_MAPPING.*
+secrets/
+.env

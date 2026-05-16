@@ -1,0 +1,19 @@
+# --- SANITIZED OUTPUT --- Safe to share ---
+
+Render job failed on worker MACHINE_001
+Worker address: IP_001
+User: USER_001
+UNC path: PATH_001
+Windows path: PATH_002
+Linux log: PATH_003
+Home dir: PATH_004
+Email: EMAIL_001
+Domain: DOMAIN_001
+Secondary IP: IP_002
+URL: DOMAIN_002
+Machine: MACHINE_002
+
+Stack trace:
+  File "PATH_005", line 42, in submit
+    raise ConnectionError("Cannot reach IP_001:8080")
+  ConnectionError: Cannot reach IP_001:8080
